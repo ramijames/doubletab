@@ -62,9 +62,6 @@
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/classie.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php bloginfo( 'template_directory' ); ?>/js/app.js" type="text/javascript" charset="utf-8"></script>
 
-<!-- <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
- -->
 <?php wp_footer(); ?>
 </body>
 </html>

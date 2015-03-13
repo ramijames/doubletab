@@ -15,7 +15,7 @@
 
 <?php
   // Create a category as your portfolio set. Assign the category id to this post query.
-  query_posts("cat=3");
+  query_posts( array ( 'category_name' => 'portfolio', 'posts_per_page' => -1 ) );
 ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
