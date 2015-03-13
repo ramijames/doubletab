@@ -1,18 +1,37 @@
-wp-bootstrap
-============
+# Bones
+A Lightweight Wordpress Development Theme
 
-Wordpress Bootstrap 3 Starter Theme
+Bones is designed to make the life of developers easier. It's built
+using HTML5 & has a strong semantic foundation.
+It's constantly growing so be sure to check back often if you are a
+frequent user. I'm always open to contribution. :)
 
-A Wordpress theme built from scratch with Bootstrap 3. It's a starting point for any Wordpress / Bootstrap 3 development efforts, not a finished product. 
+Designed by Eddie Machado
+http://themble.com/bones
 
-It allows for configuring a custom logo in the wp-admin area. 
+License: WTFPL
+License URI: http://sam.zoy.org/wtfpl/
+Are You Serious? Yes.
 
-I've solved the nasty navigation issues that you'll run into if starting from scratch using wp-bootstrap-navwalker from Edward McIntyre.
+#### Special Thanks to:
+Paul Irish & the HTML5 Boilerplate
+Yoast for some WP functions & optimization ideas
+Andrew Rogers for code optimization
+David Dellanave for speed & code optimization
+and several other developers. :)
 
-It has a custom frontpage, if you care to use it, based on one of the Bootstrap examples.
+#### Submit Bugs & or Fixes:
+https://github.com/eddiemachado/bones/issues
 
-Let me know if you have any issues with it, and feel free to send requests!
+To view Release & Update Notes, read the CHANGELOG.md file in the main folder.
 
-Here's a demo site: http://hillfold.com/
+For more news and to see why my parents constantly ask me what I'm
+doing with my life, follow me on twitter: @eddiemachado
 
--Ben ben@hillfold.com
+## Helpful Tools & Links
+
+Yeoman generator to quickly install Bones Wordpress starter theme into your Wordpress theme folder
+by 0dp
+https://github.com/0dp/generator-wp-bones
+
+

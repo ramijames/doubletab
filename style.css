@@ -1,29 +1,14 @@
-/*
-Theme Name: weeklypixels
-Theme URI: https://weeklypixels.com/
-Description: A wordpress 3.8+ theme built on Bootstrap 3 for showing off fancy pixels
-Author: Rami James, based of the work of Benjamin Carlson
-Author URI: http://www.blueverve.com
-Author Email: ramijames@gmail.com
-License: MIT
+/******************************************************************
+Theme Name: Weekly Pixels Theme
+Theme URI: http://www.weeklypixels.com
+Description: Awww yeah
+Author: Rami James
+Author URI: http://www.ramijames.com
 Version: 1.0
-Tags: custom-background, black, blue, brown, white, dark, light, one-column, fluid-layout, responsive-layout, custom-menu, featured-image-header, flexible-header, full-width-template, theme-options
-*/
+Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
 
-.navbar {
-	filter:alpha(opacity=60); /* IE */
-    -moz-opacity:0.6; /* Mozilla */
-    opacity: 0.6; /* CSS3 */
-}
-.navbar-brand {
-	padding: 0;
-}
+******************************************************************/
 
-h1, h2 {
-	font-family: "Buenard","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.container-normal {
-	margin-top: 40px;
-}
-
+.sticky {}          /* DO NOT EDIT THIS */
+.gallery-caption {} /* THESE ARE USELESS */
+.bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */

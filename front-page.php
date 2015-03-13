@@ -1,35 +1,60 @@
 <?php get_header(); ?>
 
-<div class="container container-normal">
+<div class="row">
+  <section id="homepagemain" class="eight columns">
+    
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-12">
- 
-        <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
-         
-        <div class="post">
-        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-         
-            <div class="entry">   
-                <?php the_post_thumbnail(); ?>
-                <?php the_content(); ?>
- 
-                <p class="postmetadata">
-                <?php _e('Filed under&#58;'); ?> <?php the_category(', ') ?> <?php _e('by'); ?> <?php  the_author(); ?><br />
-                <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?> <?php edit_post_link('Edit', ' &#124; ', ''); ?>
-                </p>
- 
-            </div>
-        </div>
-    <?php endwhile; ?>
-         
-        <div class="navigation">
-        <?php posts_nav_link(); ?>
-        </div>
-         
-        <?php endif; ?>
-    </div>
-    </div>
-<?php get_sidebar(); ?>   
+    <div class="eight columns padding100"><h1><span class"animated tada">Hello!</span> We are Doubletab<br> <small>&mdash; a wizzbang dev studio.</small></h1></div>
+  </section>
+</div>
+
+<div class="row">
+
+<?php
+  // I love WordPress so
+  query_posts("cat=3");
+?>
+
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+
+    <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'four columns dailyitem' ); ?> role="article">
+      
+
+      <header class="article-header">
+        <h5 class="h2 entry-title"><?php the_title(); ?></h5>
+        <?php the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
+      </header>
+
+      <div class="post-image eight columns padding40" style="background-image:url(<?php the_field('bg_background'); ?>)"></div>
+
+    </a>
+
+
+
+<?php endwhile; ?>
+
+    <?php bones_page_navi(); ?>
+
+<?php else : ?>
+
+    <article id="post-not-found" class="hentry cf">
+      <header class="article-header">
+        <h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
+      </header>
+      <section class="entry-content">
+        <p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+      </section>
+      <footer class="article-footer">
+        <p><?php _e( 'This is the error message in the index.php template.', 'bonestheme' ); ?></p>
+      </footer>
+    </article>
+
+<?php endif; ?>
+
+</div>
+
 <?php get_footer(); ?>
