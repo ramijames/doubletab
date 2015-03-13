@@ -14,7 +14,7 @@
 <div class="row">
 
 <?php
-  // I love WordPress so
+  // Create a category as your portfolio set. Assign the category id to this post query.
   query_posts("cat=3");
 ?>
 
