@@ -11,10 +11,13 @@
       <li>biz@doubletab.com</li>
     </ul>
   </section>
+</div>
+<div class="row extras">
   <section class="two columns padding60">
   </section>
    <section class="four columns padding60 newsletter">
-    <h5>Newsletter</h5>
+    <h5>Subscribe for Insider Access to Doubletab</h5>
+    <p>Receive monthly briefings on what we have been researching, designing, building and thinking.</p>
     <hr>
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
@@ -22,7 +25,7 @@
           <div id="mc_embed_signup_scroll">
         
       <div class="mc-field-group">
-        <label for="mce-EMAIL">Email Address </label>
+        <label for="mce-EMAIL">Your email</label>
         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
       </div>
         <div id="mce-responses" class="clear">
@@ -39,21 +42,22 @@
 </div>
 
 <div class="row">
-      <!-- FOOTER -->
-      <footer class="padding60">
-        <p>
-          <span>&copy; 2015 <?php bloginfo('name'); ?></span>
-          &middot;
-          <span><a href="#">Contact</a></span>
-        </p>
-        <ul>
-          <li><i class="fa fa-facebook"></i></li>
-          <li><i class="fa fa-twitter"></i></li>
-          <li><i class="fa fa-instagram"></i></li>
-          <li><i class="fa fa-linkedin"></i></li>
-        </ul>
-      </footer>
+  <!-- FOOTER -->
+  <footer class="padding60">
+    <p id="social">
+      <a href=""><i class="fa fa-facebook fa-2x"></i></a>
+      <a href=""><i class="fa fa-twitter fa-2x"></i></a>
+      <a href=""><i class="fa fa-instagram fa-2x"></i></a>
+      <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
+    </p>
 
+    <p>
+      <span>&copy; 2015 <?php bloginfo('name'); ?></span>
+      &middot;
+      <span><a href="#">Contact</a></span>
+    </p>
+    
+  </footer>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

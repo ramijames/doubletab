@@ -63,6 +63,27 @@ body {
           font-size: 7em;
         }
 
+#social {
+  display: block;
+  margin: 0 auto;
+}
+
+    #social a {
+      display: inline-block;
+      line-height: 40px;
+      border:0px;
+    }
+
+        #social a i {
+          list-style: none;
+          width:40px;
+          height: 40px;
+          display: inline-block;
+          line-height: 40px;
+
+        }
+
+
 #services {
   background: #d83f38;
 }
@@ -259,7 +280,6 @@ footer {
 
         footer a {
           border-bottom:1px solid rgba(0,0,0,0.12);
-          color:white;
           font-weight: 700;
         }
 
