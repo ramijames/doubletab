@@ -75,7 +75,7 @@
         <ul>
           <li>Home</li>
           <li>About</li>
-          <li>Start a Project</li>
+          <li class="startproject">Start a Project</li>
           <li>Blog</li>
         </ul>
       </nav>

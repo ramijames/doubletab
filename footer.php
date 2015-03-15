@@ -1,6 +1,8 @@
-<div class="row extras">
-  <section class="two columns padding60">
-    <h5>Contact</h5>
+<div class="overlay contact">
+  <div class="close"><i class="fa fa-close"></i></div>
+  <section class="four columns offset-by-two padding60">
+    <h1>Start a Project</h1>
+    <h3>Let's create a groundbreaking product together.</h3>
     <hr>
     <ul>
       <li>Tel Aviv, Israel</li>
@@ -12,7 +14,11 @@
     </ul>
   </section>
 </div>
+
 <div class="row extras">
+  <section>
+    <a href="#" class="startproject button">Start a Project</a>  
+  </section>
   <section class="two columns padding60">
   </section>
    <section class="four columns padding60 newsletter">

@@ -12,10 +12,17 @@
       }
     );
 
+    $(".startproject").click(
+      function(){
+        $(".overlay").css("opacity", "1");
+        $(".overlay").css("visibility", "visible");
+      }
+    );
+
     $(".close").click(
       function(){
-        $(".project").removeClass("boop");
-        classie.remove(close, "show");
+        $(".overlay").css("opacity", "0");
+        $(".overlay").css("visibility", "hidden");
       }
     );
 
