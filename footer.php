@@ -1,5 +1,5 @@
 <div class="row extras">
-  <section class="two columns padding40">
+  <section class="two columns padding60">
     <h5>Contact</h5>
     <hr>
     <ul>
@@ -11,17 +11,9 @@
       <li>biz@doubletab.com</li>
     </ul>
   </section>
-  <section class="two columns padding40">
-    <h5>Social</h5>
-    <hr>
-    <ul>
-      <li><i class="fa fa-facebook"></i> Facebook</li>
-      <li><i class="fa fa-twitter"></i> Twitter</li>
-      <li><i class="fa fa-instagram"></i> Instagram</li>
-      <li><i class="fa fa-linkedin"></i> LinkedIn</li>
-    </ul>
+  <section class="two columns padding60">
   </section>
-  <section class="four columns padding40">
+   <section class="four columns padding60 newsletter">
     <h5>Newsletter</h5>
     <hr>
     <!-- Begin MailChimp Signup Form -->
@@ -48,12 +40,18 @@
 
 <div class="row">
       <!-- FOOTER -->
-      <footer class="padding40">
+      <footer class="padding60">
         <p>
           <span>&copy; 2015 <?php bloginfo('name'); ?></span>
           &middot;
           <span><a href="#">Contact</a></span>
         </p>
+        <ul>
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-instagram"></i></li>
+          <li><i class="fa fa-linkedin"></i></li>
+        </ul>
       </footer>
 
 </div>
