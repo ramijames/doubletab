@@ -1,22 +1,5 @@
-<div class="overlay contact">
-  <div class="close"><i class="fa fa-close"></i></div>
-  <section class="four columns offset-by-two padding60">
-    <h1>Start a Project</h1>
-    <h3>Let's create a groundbreaking product together.</h3>
-    <hr>
-    <ul>
-      <li>Tel Aviv, Israel</li>
-      <li>dev@doubletab.com</li>
-    </ul>
-    <ul>
-      <li>Los Angeles, USA</li>
-      <li>biz@doubletab.com</li>
-    </ul>
-  </section>
-</div>
-
 <div class="row extras padding60">
-  <section class="four columns newsletter">
+  <section class="four columns offset-by-two newsletter">
     <h5>Insider Access to Doubletab</h5>
     <p>Receive monthly briefings on what we have been researching, designing, building and thinking.</p>
     <hr>
@@ -40,9 +23,6 @@
     </div>
   <!--End mc_embed_signup-->
   </section>
-  <section class="four columns">
-    img
-  </section>
 </div>
 
 <div class="row">
@@ -62,6 +42,23 @@
     </p>
     
   </footer>
+</div>
+
+<div class="overlay contact">
+  <div class="close"><i class="fa fa-close"></i></div>
+  <section class="four columns offset-by-two padding60">
+    <h1>Start a Project</h1>
+    <h3>Let's create a groundbreaking product together.</h3>
+    <hr>
+    <ul>
+      <li>Tel Aviv, Israel</li>
+      <li>dev@doubletab.com</li>
+    </ul>
+    <ul>
+      <li>Los Angeles, USA</li>
+      <li>biz@doubletab.com</li>
+    </ul>
+  </section>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

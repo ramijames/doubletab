@@ -186,13 +186,23 @@ body {
 .post {
   display: block;
   position: relative;
-  background: #222;
-  height: 320px;
   box-shadow: inset -22px -19px 0px -21px rgba(255,255,255,0.20);
   -webkit-box-shadow: inset -22px -19px 0px -21px rgba(255,255,255,0.20);
   -moz-box-shadow: inset -22px -19px 0px -21px rgba(255,255,255,0.20);
   -o-box-shadow: inset -22px -19px 0px -21px rgba(255,255,255,0.20);
 }
+
+    .inner-post-image {
+      opacity: 1;
+      height: 480px;
+      transition:.4s all ease-in;
+      background-repeat: no-repeat;
+      background-position:  center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
 
     .post-image {
       opacity: 1;
@@ -236,7 +246,7 @@ body {
           width: 140px;
           height: 200px;
           margin: 60px auto 0 auto;
-          border: 4px solid #444;
+          box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
         }
 
             .logo-box span.logo-name {
@@ -253,6 +263,32 @@ body {
               position: absolute;
               bottom: 70px;
               margin-left: -10px;
+            }
+
+        .inner-logo-box {
+          background-color: white;
+          width: 200px;
+          height: 260px;
+          margin: 100px auto 0 auto;
+          box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+            .inner-logo-box span.inner-logo-name {
+              background-color: white;
+              width:240px;
+              line-height: 44px;
+              height: 44px;
+              display: block;
+              font-size: 1.35em;
+              text-transform: uppercase;
+              text-align: center;
+              background-color: #d83f38;
+              color:#eee;
+              position: absolute;
+              bottom: 140px;
+              margin-left: -20px;
             }
 
     .article-header h5 {
@@ -283,10 +319,11 @@ body {
         }
 
 .extras {
+
 }
 
     .extras h5 {
-      color:#d83f38;
+
     }
 
     .extras hr {
@@ -304,6 +341,7 @@ body {
 
 footer {
   text-align: center;
+  background-color: rgba(0,0,0,.03);
 }
 
     footer p {

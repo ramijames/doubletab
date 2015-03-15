@@ -290,12 +290,12 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #9E8F82;
+  color: #d83f38;
   transition:.16s all;
   text-decoration: none;
 }
 a:hover {
-  color: #85766a; }
+  color: #d83f38; }
 
 
 /* Buttons
@@ -400,7 +400,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 2px solid #F8A661;
+  border: 2px solid #d83f38;
   outline: 0; }
 label,
 legend {
@@ -510,7 +510,7 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-width: 0;
-  border-top: 2px solid #F8A661;
+  border-top: 2px solid rgba(0,0,0,0.12);
 }
 
 

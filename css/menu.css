@@ -16,16 +16,14 @@ body, html {
 Main Components 
 
 -------------------------------- */
-main {
+/*main {
   position: relative;
   z-index: 2000;
-  /* fix bug on iOS */
   height: 100vh;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   padding: 0px 5%;
   background-color: #444;
-  /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -53,7 +51,8 @@ main p {
   max-width: 450px;
   margin: 0 auto;
   line-height: 1.6;
-}
+}*/
+
 .navigation-is-open main {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
@@ -61,7 +60,7 @@ main p {
   -o-transform: translateX(100%);
   transform: translateX(100%);
 }
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
   main {
     padding: 250px 10%;
   }
@@ -71,7 +70,7 @@ main p {
   main p {
     font-size: 2rem;
   }
-}
+}*/
 
 .cd-nav-trigger {
   position: fixed;

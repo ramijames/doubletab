@@ -59,10 +59,10 @@
 <a href="" class="mainbutton">View all Work <i class="fa fa-arrow-right"></i></a>
 
 <div id="services" class="row padding60">
-  <section class="eight columns">
-    <h1 class="white">Doubletab is a web design, product design and development studio that excels in helping businesses better connect with their audience.</h1>
+  <section class="">
+    <h1 class="white">Doubletab is a web design, product design, and development studio that excels in helping businesses better connect with their audience.</h1>
   </section>
-  <section>
+  <section class="">
     <h4 class="white">Development</h4>
     <hr>
     <div class="four columns">
@@ -78,7 +78,7 @@
       </ul>
     </div>
   </section>
-  <section>
+  <section class="">
     <h4 class="white">Design</h4>
     <hr>
     <div class="four columns">
@@ -94,7 +94,7 @@
       </ul>
     </div>
   </section>
-  <section>
+  <section class="">
     <h4 class="white">Analysis</h4>
     <hr>
     <div class="four columns">
@@ -110,41 +110,6 @@
       </ul>
     </div>
   </section>
-  <!-- <section class="row padding60">
-    <article class="one-third column">
-      <div class="service-image development"></div>
-      <h5>Development</h5>
-      <ul>
-        <li>Websites</li>
-        <li>Web Applications</li>
-        <li>Mobile Applications</li>
-        <li>Content Management</li>
-        <li>E-commerce Systems</li>
-      </ul>
-    </article>
-    <article class="one-third column">
-      <div class="service-image design"></div>
-      <h5>Design</h5>
-      <ul>
-        <li>Web &amp; Mobile Design</li>
-        <li>User Experience</li>
-        <li>Product Design</li>
-        <li>User Interface Design</li>
-        <li>Brand Identity</li>
-      </ul>
-    </article>
-    <article class="one-third column">
-      <div class="service-image consultation"></div>
-      <h5>Consulting</h5>
-      <ul>
-        <li>Server Administration</li>
-        <li>SEO/SEM</li>
-        <li>Email Campaigns</li>
-        <li>Content Strategy</li>
-        <li>Social Media Integration</li>
-      </ul>
-    </article>
-  </section> -->
 </div>
 
 <?php get_footer(); ?>
