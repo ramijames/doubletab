@@ -177,21 +177,23 @@ body {
           width: 140px;
           height: 200px;
           margin: 60px auto 0 auto;
+          border: 4px solid #444;
         }
 
             .logo-box span.logo-name {
               background-color: white;
-              width:140px;
+              width:160px;
               line-height: 30px;
               height: 30px;
               display: block;
               font-size: .8em;
               text-transform: uppercase;
               text-align: center;
-              background-color: #444;
+              background-color: #d83f38;
               color:#eee;
               position: absolute;
-              bottom: 60px;
+              bottom: 70px;
+              margin-left: -10px;
             }
 
     .article-header h5 {
