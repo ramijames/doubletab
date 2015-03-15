@@ -15,14 +15,9 @@
   </section>
 </div>
 
-<div class="row extras">
-  <section>
-    <a href="#" class="startproject button">Start a Project</a>  
-  </section>
-  <section class="two columns padding60">
-  </section>
-   <section class="four columns padding60 newsletter">
-    <h5>Subscribe for Insider Access to Doubletab</h5>
+<div class="row extras padding60">
+  <section class="four columns newsletter">
+    <h5>Insider Access to Doubletab</h5>
     <p>Receive monthly briefings on what we have been researching, designing, building and thinking.</p>
     <hr>
     <!-- Begin MailChimp Signup Form -->
@@ -44,6 +39,9 @@
       </form>
     </div>
   <!--End mc_embed_signup-->
+  </section>
+  <section class="four columns">
+    img
   </section>
 </div>
 

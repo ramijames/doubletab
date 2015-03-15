@@ -89,6 +89,9 @@ body {
       height: 54px;
       border-radius: 27px;
       background-color: #444;
+      text-align: center;
+      line-height: 54px;
+      font-size: 1.5em;
     }
 
     .show {
@@ -160,8 +163,10 @@ body {
 
     #services li {
       color:#eee;
-      text-align: center;
-      list-style: none;
+      text-align: left;
+      list-style: square;
+      margin-left: 20px;
+      font-size: 
     }
 
 .title_row {
