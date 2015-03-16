@@ -36,7 +36,9 @@
     <p>
       <span>&copy; 2015 <?php bloginfo('name'); ?></span>
       &middot;
-      <span><a href="#">Contact</a></span>
+      <span><a href="mailto:rami@doubletab.com">Contact Dev</a></span>
+      &middot;
+      <span><a href="mailto:zlatko@doubletab.com">Contact Biz</a></span>
     </p>
     
   </footer>
@@ -50,11 +52,11 @@
     <hr>
     <ul>
       <li>Tel Aviv, Israel</li>
-      <li>dev@doubletab.com</li>
+      <li><a href="mailto:rami@doubletab.com">rami@doubletab.com</a></li>
     </ul>
     <ul>
       <li>Los Angeles, USA</li>
-      <li>biz@doubletab.com</li>
+      <li><a href="mailto:zlatko@doubletab.com">zlatko@doubletab.com</a></li>
     </ul>
   </section>
 </div>
