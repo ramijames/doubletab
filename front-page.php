@@ -60,11 +60,11 @@
 
 <div id="services" class="row padding100">
   <section class="">
-    <h1 class="white">Doubletab is a development, product design, and consultation studio that excels in helping businesses better connect with their audience.</h1>
+    <h2 class="white">Doubletab is a <span class="development">development</span>, <span class="design">product design</span>, and <span class="consultation">consultation</span> studio that excels in helping businesses better connect with their audience.</h2>
   </section>
   <section class="one-third column">
     <div class="row">
-      <h4 class="white">Development</h4>
+      <h4 class="white bg-development">Development</h4>
     </div>
     <div class="row">
       <div class="ex-box">
@@ -79,7 +79,7 @@
   </section>
   <section class="one-third column">
     <div class="row">
-      <h4 class="white">Design</h4>
+      <h4 class="white bg-design">Design</h4>
     </div>
     <div class="row">
       <div class="ex-box">
@@ -94,7 +94,7 @@
   </section>
   <section class="one-third column">
     <div class="row">
-      <h4 class="white">Analysis</h4>
+      <h4 class="white bg-consultation">Analysis</h4>
     </div>
     <div class="row">
       <div class="ex-box">
@@ -102,7 +102,7 @@
           <li><i class="fa fa-check-circle-o"></i> Server Administration</li>
           <li><i class="fa fa-check-circle-o"></i> SEO/SEM</li>
           <li><i class="fa fa-check-circle-o"></i> Email Campaigns</li>
-          <li><i class="fa fa-check-circle-o"></i> Social Media Integration</li>
+          <li><i class="fa fa-check-circle-o"></i> Social Integration</li>
         </ul>
       </div>
     </div>

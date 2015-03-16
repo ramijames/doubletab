@@ -8,6 +8,7 @@
           <h1 class="page-title" itemprop="headline">
             <span><?php _e( '', 'bonestheme' ); ?></span> <?php single_cat_title(); ?>
           </h1>
+          <h5>All the best we have to offer.</h5>
 
         <?php } elseif (is_tag()) { ?>
           <h1 class="page-title" itemprop="headline">
@@ -41,7 +42,7 @@
         </header>
       </div>
 
-      <div class="row bg-white">
+      <div class="row">
 
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         

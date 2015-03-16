@@ -10,15 +10,12 @@
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-								<header class="article-header">
-
-									<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
-
-									<p class="byline vcard">
-										<?php the_field('summary'); ?>
-									</p>
-
-								</header> <?php // end article header ?>
+								<div class="title_row">
+					        <header class="article-header">
+					            <h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
+					            <h5><?php the_field('byline'); ?></h5>
+					        </header>
+					      </div>
 
 								<section class="entry-content padding60" itemprop="articleBody">
 									<?php
