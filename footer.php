@@ -29,10 +29,8 @@
   <!-- FOOTER -->
   <footer class="padding60">
     <p id="social">
-      <a href=""><i class="fa fa-facebook fa-2x"></i></a>
-      <a href=""><i class="fa fa-twitter fa-2x"></i></a>
-      <a href=""><i class="fa fa-instagram fa-2x"></i></a>
-      <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
+      <a href="http://www.twitter.com/dbltab"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="https://github.com/Doubletab"><i class="fa fa-github fa-2x"></i></a>
     </p>
 
     <p>
