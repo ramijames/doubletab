@@ -234,6 +234,13 @@ body {
   -webkit-box-shadow: inset -22px -19px 0px -21px rgba(255,255,255,0.20);
   -moz-box-shadow: inset -22px -19px 0px -21px rgba(255,255,255,0.20);
   -o-box-shadow: inset -22px -19px 0px -21px rgba(255,255,255,0.20);
+  background-repeat: no-repeat;
+  background-position:  center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom:2px solid rgba(0,0,0,0.01);
 }
 
     .inner-post-image {
