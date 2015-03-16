@@ -68,7 +68,7 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: #eee;
+  background-color: #222;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -124,8 +124,20 @@ body {
   background: #d83f38;
 }
 
-    #services img {
+    #services h4 {
+      background: #444;
+      display: block;
+      padding: 20px;
+      margin: 0 20px 0px 0;
+      font-weight: 300;
+      font-size: 1.2em;
+    }
 
+    .ex-box {
+      background-color: white;
+      padding: 20px;
+      margin-right: 20px;
+      color:#222;
     }
 
     .service-image {
@@ -161,13 +173,16 @@ body {
       margin: 0 auto 24px auto;
     }
 
-    #services li {
-      color:#eee;
-      text-align: left;
-      list-style: square;
-      margin-left: 20px;
-      font-size: 
+    #services ul {
+      margin:0;
     }
+
+        #services li {
+          color:#222;
+          text-align: left;
+          list-style: none;
+          font-weight: 300;
+        }
 
 .title_row {
   background-color: #eee;
@@ -224,7 +239,7 @@ body {
     
     .article-header {
       position: relative;
-      padding:20px;
+      padding:40px;
       background-color:white;
       text-align: center;
       display: block;
@@ -370,12 +385,11 @@ nav {
 }
 
     nav ul {
-      color:#333;
       z-index: 101;
+      margin-bottom: 80px;
     }
 
         nav ul li {
-          color:#eee;
           font:500 40px/60px PT Sans,Helvetica,Arial,sans-serif;
           list-style: none;
           font-weight: 700;
@@ -384,10 +398,12 @@ nav {
           -ms-transform: translateX(15em);
           -o-transform: translateX(15em);
           transform: translateX(15em);*/
+          text-align: center;
         }
 
             nav ul li a {
               display: block;
+              color:white;
             }
 
           
@@ -398,26 +414,20 @@ nav {
           transition: all 0.3s ease 0.15s;
         }*/
 
-.navbar-toggle {
-  color: #222;
-  position: fixed;
-  top: 20px;
-  right:20px;
-  transition:0.12s all;
-  z-index: 2;
-  background: rgba(255,255,255,0.95);
-  border: 0px solid white;
-  width:44px;
-  line-height: 44px;
-  height: 44px;
-  padding:0;
+.startproject {
+  display: inline-block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: 'Exo';
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: tra;
+  border: 4px solid #d83f38;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 20px 0;
 }
-
-    .navbar-toggle:hover,.navbar-toggle:active,.navbar-toggle:focus {
-      border:0px solid white;
-      color: #222;
-      background: rgba(255,255,255,1);
-    }
 
 #stars {
   width: 1px;

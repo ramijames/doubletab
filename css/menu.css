@@ -233,11 +233,11 @@ main p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #444;
+  background-color: #222;
   visibility: hidden;
-  -webkit-transition: visibility 0s 0.7s;
-  -moz-transition: visibility 0s 0.7s;
-  transition: visibility 0s 0.7s;
+  -webkit-transition: visibility 0s 0.2s;
+  -moz-transition: visibility 0s 0.2s;
+  transition: visibility 0s 0.2s;
 }
 .cd-nav .cd-navigation-wrapper {
   /* all navigation content */
@@ -258,9 +258,9 @@ main p {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  -webkit-transition: -webkit-transform 0.7s;
-  -moz-transition: -moz-transform 0.7s;
-  transition: transform 0.7s;
+  -webkit-transition: -webkit-transform 0.12s;
+  -moz-transition: -moz-transform 0.12s;
+  transition: transform 0.12s;
   -webkit-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
   -moz-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
   transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
@@ -277,12 +277,12 @@ main p {
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
   transform: translateX(0);
-  -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -moz-transform 0.5s;
-  transition: transform 0.5s;
-  -webkit-transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
-  -moz-transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
-  transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
+  -webkit-transition: -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(0.42, 0.01, 0.37, 0.38);
+  -moz-transition-timing-function: cubic-bezier(0.42, 0.01, 0.37, 0.38);
+  transition-timing-function: cubic-bezier(0.42, 0.01, 0.37, 0.38);
   height: 100%;
 }
 .cd-nav h2 {

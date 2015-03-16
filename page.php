@@ -4,7 +4,7 @@
 
 				<div id="inner-content" class="wrap cf">
 
-						<main id="main" class="m-all t-3of3 d-7of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+						<main id="main" class="bg-white" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -20,7 +20,7 @@
 
 								</header> <?php // end article header ?>
 
-								<section class="entry-content cf" itemprop="articleBody">
+								<section class="entry-content padding60" itemprop="articleBody">
 									<?php
 										// the content (pretty self explanatory huh)
 										the_content();
@@ -50,8 +50,6 @@
 
 								</footer>
 
-								<?php comments_template(); ?>
-
 							</article>
 
 							<?php endwhile; else : ?>
@@ -71,8 +69,6 @@
 							<?php endif; ?>
 
 						</main>
-
-						<?php get_sidebar(); ?>
 
 				</div>
 

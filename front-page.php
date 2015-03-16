@@ -56,58 +56,55 @@
 
 </div>
 
-<a href="" class="mainbutton">View all Work <i class="fa fa-arrow-right"></i></a>
+<a href="/portfolio/" class="mainbutton">View all Work <i class="fa fa-arrow-right"></i></a>
 
-<div id="services" class="row padding60">
+<div id="services" class="row padding100">
   <section class="">
-    <h1 class="white">Doubletab is a web design, product design, and development studio that excels in helping businesses better connect with their audience.</h1>
+    <h1 class="white">Doubletab is a development, product design, and consultation studio that excels in helping businesses better connect with their audience.</h1>
   </section>
-  <section class="">
-    <h4 class="white">Development</h4>
-    <hr>
-    <div class="four columns">
-      img
+  <section class="one-third column">
+    <div class="row">
+      <h4 class="white">Development</h4>
     </div>
-    <div class="four columns">
-      <ul>
-        <li>Websites</li>
-        <li>Web Applications</li>
-        <li>Mobile Applications</li>
-        <li>Content Management</li>
-        <li>E-commerce Systems</li>
-      </ul>
-    </div>
-  </section>
-  <section class="">
-    <h4 class="white">Design</h4>
-    <hr>
-    <div class="four columns">
-      img
-    </div>
-    <div class="four columns">
-      <ul>
-        <li>Web &amp; Mobile Design</li>
-        <li>User Experience</li>
-        <li>Product Design</li>
-        <li>User Interface Design</li>
-        <li>Brand Identity</li>
-      </ul>
+    <div class="row">
+      <div class="ex-box">
+        <ul>
+          <li><i class="fa fa-check-circle-o"></i> Laravel</li>
+          <li><i class="fa fa-check-circle-o"></i> Web Applications</li>
+          <li><i class="fa fa-check-circle-o"></i> Wordpress</li>
+          <li><i class="fa fa-check-circle-o"></i> Payment Integration</li>
+        </ul>
+      </div>
     </div>
   </section>
-  <section class="">
-    <h4 class="white">Analysis</h4>
-    <hr>
-    <div class="four columns">
-      img
+  <section class="one-third column">
+    <div class="row">
+      <h4 class="white">Design</h4>
     </div>
-    <div class="four columns">
-      <ul>
-        <li>Server Administration</li>
-        <li>SEO/SEM</li>
-        <li>Email Campaigns</li>
-        <li>Content Strategy</li>
-        <li>Social Media Integration</li>
-      </ul>
+    <div class="row">
+      <div class="ex-box">
+        <ul>
+          <li><i class="fa fa-check-circle-o"></i> Responsive Design</li>
+          <li><i class="fa fa-check-circle-o"></i> User Experience</li>
+          <li><i class="fa fa-check-circle-o"></i> Interface Design</li>
+          <li><i class="fa fa-check-circle-o"></i> Brand Identity</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="one-third column">
+    <div class="row">
+      <h4 class="white">Analysis</h4>
+    </div>
+    <div class="row">
+      <div class="ex-box">
+        <ul>
+          <li><i class="fa fa-check-circle-o"></i> Server Administration</li>
+          <li><i class="fa fa-check-circle-o"></i> SEO/SEM</li>
+          <li><i class="fa fa-check-circle-o"></i> Email Campaigns</li>
+          <li><i class="fa fa-check-circle-o"></i> Social Media Integration</li>
+        </ul>
+      </div>
     </div>
   </section>
 </div>
