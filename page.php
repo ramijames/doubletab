@@ -17,7 +17,7 @@
 					        </header>
 					      </div>
 
-								<section class="entry-content padding60" itemprop="articleBody">
+								<section class="entry-content padding100" itemprop="articleBody">
 									<?php
 										// the content (pretty self explanatory huh)
 										the_content();

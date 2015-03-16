@@ -227,6 +227,11 @@ body {
 
     }
 
+.bio-image {
+  width:100%;
+  text-align: center;
+}
+
 .post {
   display: block;
   position: relative;
