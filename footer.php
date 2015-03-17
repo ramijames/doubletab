@@ -60,9 +60,11 @@
     </ul>
   </section>
   <section class="four columns padding60">
-    if ( function_exists( 'ccf_output_form' ) ) {
-      ccf_output_form( 51 );
-    }
+    <?php 
+      if ( function_exists( 'ccf_output_form' ) ) {
+        ccf_output_form( 51 );
+      }
+    ?>
   </section>
 </div>
 
