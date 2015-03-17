@@ -232,6 +232,10 @@ body {
   text-align: center;
 }
 
+.so-widget-image {
+  border: 2px solid rgba(0,0,0,0.06);
+}
+
 .post {
   display: block;
   position: relative;
