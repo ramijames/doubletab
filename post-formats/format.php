@@ -1,8 +1,8 @@
 
-            <div id="post-<?php the_ID(); ?>" <?php post_class('row'); ?> role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting" style="background-image:url(<?php the_field('bg_background'); ?>)">
+            <div id="post-<?php the_ID(); ?>" <?php post_class('row'); ?> role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
               
                 <div class="eight columns">
-                  <div href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'eight columns dailyitem inner-post-image' ); ?> role="article">  
+                  <div rel="bookmark" title="<?php the_title_attribute(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'eight columns dailyitem inner-post-image' ); ?> role="article" style="background-image:url(<?php the_field('bg_background'); ?>)">  
                     <div class="inner-logo-box" style="background-image:url('<?php the_field('logo'); ?>')">
                       <span class="inner-logo-name" style="background-color: <?php the_field('bg_color'); ?>"><?php the_title(); ?></span>
                     </div>

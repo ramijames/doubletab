@@ -24,15 +24,12 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-
     <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'four columns dailyitem post-image' ); ?> role="article" style="background-image:url(<?php the_field('bg_background'); ?>)">  
       <div class="logo-box" style="background-image:url('<?php the_field('logo'); ?>')">
         <span class="logo-name" style="background-color: <?php the_field('bg_color'); ?>"><?php the_title(); ?></span>
       </div>
       <?php //the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
     </a>
-
-
 
 <?php endwhile; ?>
 
