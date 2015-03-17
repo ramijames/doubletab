@@ -245,7 +245,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-bottom:2px solid rgba(0,0,0,0.01);
+  border-bottom:2px solid rgb(240,240,240);
 }
 
     .inner-post-image {
@@ -425,7 +425,7 @@ footer {
 
 nav {
   z-index: 100;
-  padding:60px 0 0 60px;
+  padding:60px 0 0 0;
   height: 100%;
 }
 
@@ -473,6 +473,14 @@ nav {
   box-sizing: border-box;
   padding: 20px 0;
 }
+
+    .startproject-button {
+      position: fixed;
+      width:50%;
+      bottom:60px;
+      font: 500 40px/60px PT Sans,Helvetica,Arial,sans-serif;
+      font-weight: 700;
+    }
 
 #stars {
   width: 1px;

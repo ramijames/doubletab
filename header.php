@@ -103,10 +103,8 @@
                  'depth' => 0,                                   // limit the depth of the nav
            'fallback_cb' => ''                             // fallback function (if there is one)
         )); ?>
-        <ul>
-          <li class="startproject">Start a Project</li>
-        </ul>
       </nav>
+      <a class="startproject startproject-button">Start a Project</a>
     </div><!-- .cd-half-block -->
   </div> <!-- .cd-navigation-wrapper -->
 </div> <!-- .cd-nav -->

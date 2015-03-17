@@ -9,7 +9,7 @@
         </header>
       </div>
 
-      <div class="row padding60">
+      <div class="row padding100">
         <div id="inner-content" class="eight columns">
         <?php
           // Create a category as your portfolio set. Assign the category id to this post query.

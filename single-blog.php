@@ -18,8 +18,8 @@ Single Post Template: Single Blog
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article>
-								<div id="inner-content" class="three columns padding60">
+							<article class=" padding100">
+								<div id="inner-content" class="three columns">
 									<h4><?php the_title(); ?></h4>
 									<?php printf( __( 'Posted %1$s by %2$s', 'bonestheme' ),
 	                     /* the time the post was published */

@@ -356,6 +356,23 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
+.subscribe-button {
+  display: inline-block;
+  height: 38px !important;
+  color: white !important;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 38px !important;
+  font-family: 'Exo';
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #ff3f3f !important;
+  border: 2px solid #ff3f3f !important;
+  width:100%;
+  cursor: pointer;
+  box-sizing: border-box;
+}
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
