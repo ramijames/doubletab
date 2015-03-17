@@ -44,10 +44,10 @@
   </footer>
 </div>
 
-<div class="overlay contact">
+<div id="start-project-overlay" class="overlay contact">
   <div class="close"><i class="fa fa-close"></i></div>
-  <section class="six columns offset-by-one padding60">
-    <h1>Start a Project</h1>
+  <section class="four columns padding60">
+    <h2>Let's do something great together</h2>
     <h3>Let's create a groundbreaking product together.</h3>
     <hr>
     <ul>
@@ -58,6 +58,11 @@
       <li>Los Angeles, USA</li>
       <li><a href="mailto:zlatko@doubletab.com">zlatko@doubletab.com</a></li>
     </ul>
+  </section>
+  <section class="four columns padding60">
+    if ( function_exists( 'ccf_output_form' ) ) {
+      ccf_output_form( 51 );
+    }
   </section>
 </div>
 
