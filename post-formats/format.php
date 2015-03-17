@@ -4,7 +4,7 @@
                 <div class="eight columns">
                   <div href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'eight columns dailyitem inner-post-image' ); ?> role="article">  
                     <div class="inner-logo-box" style="background-image:url('<?php the_field('logo'); ?>')">
-                      <span class="inner-logo-name"><?php the_title(); ?></span>
+                      <span class="inner-logo-name" style="background-color: <?php the_field('bg_color'); ?>"><?php the_title(); ?></span>
                     </div>
                     <?php //the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
                   </div>
