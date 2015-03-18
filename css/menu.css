@@ -75,8 +75,8 @@ main p {
 .cd-nav-trigger {
   position: fixed;
   z-index: 3000;
-  right: 13px;
-  top: 13px;
+  right: 20px;
+  bottom: 20px;
   height: 54px;
   width: 54px;
   background-color: #222;
@@ -90,6 +90,7 @@ main p {
   transition: all 0.14s;
   display: block;
   z-index: 1001;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
 
     .cd-nav-trigger-smallheader {
