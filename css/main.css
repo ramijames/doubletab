@@ -170,6 +170,15 @@ body {
       background-color: #222;
     }
 
+    .ccf-form {
+      font: 500 22px/26px PT Sans,Helvetica,Arial,sans-serif;
+      font-weight: 700;
+      color: #222;
+      background: white;
+      padding: 60px;
+      text-align: center;
+    }
+
 #services {
   background: #eee;
 }
