@@ -42,25 +42,25 @@
   </footer>
 </div>
 
-<div id="start-project-overlay" class="overlay contact">
+<div id="start-project-overlay" class="overlay contact padding100">
   <div class="close"><i class="fa fa-close"></i></div>
-  <section class="four columns padding100">
+  <section class="three columns">
     <h3>Doubletab is always excited to create groundbreaking new technologies with you, our valued clients.</h3>
     <hr>
     <ul class="four columns">
-      <li><h5>Design and Development</h5></li>
+      <li><h5>Development</h5></li>
       <li>Tel Aviv, Israel</li>
       <li><a href="mailto:dev@doubletab.com">dev@doubletab.com</a></li>
       <li>972 58 4192939</li>
     </ul>
     <ul class="four columns">
-      <li><h5>Business Development</h5></li>
+      <li><h5>Business</h5></li>
       <li>Los Angeles, USA</li>
       <li><a href="mailto:biz@doubletab.com">biz@doubletab.com</a></li>
       <li>1 949 870 9885</li>
     </ul>
   </section>
-  <section class="four columns padding100">
+  <section class="five columns">
     <?php 
       if ( function_exists( 'ccf_output_form' ) ) {
         ccf_output_form( 51 );
