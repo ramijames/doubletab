@@ -132,7 +132,7 @@ body {
     #start-project-overlay p,
     #start-project-overlay li,
     #start-project-overlay a {
-      color:#222;
+      color:#eee;
     }
 
     #start-project-overlay a {
@@ -148,7 +148,7 @@ body {
     }
 
     #start-project-overlay label, #ccf_field_file-1, .field-description {
-      color:rgba(255,255,255,0.6);
+      color:rgba(0,0,0,0.6);
     }
 
     .loading-img {
