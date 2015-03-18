@@ -565,6 +565,7 @@ body {
       display: block;
       width: 100%;
       color:#d83f38;
+      font-size: 1.25em;
     }
 
         .mainbutton:hover {
