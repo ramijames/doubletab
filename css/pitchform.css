@@ -356,7 +356,7 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
-.subscribe-button {
+.ccf-submit-button, .subscribe-button {
   display: inline-block;
   height: 38px !important;
   color: white !important;
