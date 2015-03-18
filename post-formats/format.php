@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="eight columns bg-white">
-                  <section class="six columns offset-by-one padding60" itemprop="articleBody" style="border-bottom:2px solid <?php the_field('bg_color'); ?>; margin-bottom:-2px;">
+                  <section class="six columns offset-by-one padding60" itemprop="articleBody" >
                     <?php
                       // the content (pretty self explanatory huh)
                       the_content();
@@ -23,6 +23,7 @@
                         'link_after'  => '</span>',
                       ) );
                     ?>
+
                   </section>
                 </div>
 
