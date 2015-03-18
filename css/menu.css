@@ -239,32 +239,106 @@ main p {
   -moz-transition: visibility 0s 0.2s;
   transition: visibility 0s 0.2s;
 }
-.cd-nav .cd-navigation-wrapper {
-  /* all navigation content */
-  height: 100%;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  padding: 20px 120px 0px 0px;
-  /* Force Hardware Acceleration in WebKit */
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  -webkit-transition: -webkit-transform 0.12s;
-  -moz-transition: -moz-transform 0.12s;
-  transition: transform 0.12s;
-  -webkit-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
-  -moz-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
-  transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
-}
+
+
+    /* For devices no larger than 400px */
+    @media (min-width: 0px) and (max-width:400px) {}
+
+    /* Larger than mobile */
+    @media (min-width: 400px) {}
+
+    @media (min-width: 859px) {}
+
+    /* Larger than phablet (also point when grid becomes active) */
+    @media (min-width: 860px) {
+      .cd-nav .cd-navigation-wrapper {
+        /* all navigation content */
+        height: 100%;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding: 60px 0px 0px 0px;
+        /* Force Hardware Acceleration in WebKit */
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-transition: -webkit-transform 0.12s;
+        -moz-transition: -moz-transform 0.12s;
+        transition: transform 0.12s;
+        -webkit-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+        -moz-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+        transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+      }
+    }
+
+    /* Larger than tablet */
+    @media (min-width: 960px) {
+      .cd-nav .cd-navigation-wrapper {
+        /* all navigation content */
+        height: 100%;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding: 20px 0px 0px 0px;
+        /* Force Hardware Acceleration in WebKit */
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-transition: -webkit-transform 0.12s;
+        -moz-transition: -moz-transform 0.12s;
+        transition: transform 0.12s;
+        -webkit-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+        -moz-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+        transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+      }
+    }
+
+    /* Larger than desktop */
+    @media (min-width: 1200px) {
+      .cd-nav .cd-navigation-wrapper {
+        /* all navigation content */
+        height: 100%;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding: 20px 120px 0px 0px;
+        /* Force Hardware Acceleration in WebKit */
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-transition: -webkit-transform 0.12s;
+        -moz-transition: -moz-transform 0.12s;
+        transition: transform 0.12s;
+        -webkit-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+        -moz-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+        transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+      }
+    }
+
 .navigation-is-open .cd-nav {
   visibility: visible;
   -webkit-transition: visibility 0s 0s;

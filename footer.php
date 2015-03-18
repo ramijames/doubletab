@@ -97,16 +97,16 @@
 
 <div id="start-project-overlay" class="overlay contact">
   <div class="close"><i class="fa fa-close"></i></div>
-  <section class="three columns padding100">
-    <h3>Doubletab is always excited to create groundbreaking new technologies with you, our valued clients.</h3>
+  <section class="three columns padding60">
+    <h4>Doubletab is always excited to create groundbreaking new technologies with you, our valued clients.</h4>
     <hr>
-    <ul class="four columns">
+    <ul>
       <li><h5>Development</h5></li>
       <li>Tel Aviv, Israel</li>
       <li><a href="mailto:dev@doubletab.com">dev@doubletab.com</a></li>
       <li>972 58 4192939</li>
     </ul>
-    <ul class="four columns">
+    <ul>
       <li><h5>Business</h5></li>
       <li>Los Angeles, USA</li>
       <li><a href="mailto:biz@doubletab.com">biz@doubletab.com</a></li>

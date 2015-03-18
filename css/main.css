@@ -51,6 +51,41 @@ body {
       font-weight: 700;
     }
 
+        /* For devices no larger than 400px */
+        @media (min-width: 0px) and (max-width:400px) {
+          #homepagemain h1 {
+            font:500 40px/38px PT Sans,Helvetica,Arial,sans-serif;
+            color: #eee;
+            font-weight: 700;
+          }
+        }
+
+        /* Larger than mobile */
+        @media (min-width: 400px) {
+          #homepagemain h1 {
+            font:500 40px/38px PT Sans,Helvetica,Arial,sans-serif;
+            color: #eee;
+            font-weight: 700;
+          }
+        }
+
+        @media (min-width: 859px) {
+          #homepagemain h1 {
+            font:500 80px/78px PT Sans,Helvetica,Arial,sans-serif;
+            color: #eee;
+            font-weight: 700;
+          }
+        }
+
+        /* Larger than phablet (also point when grid becomes active) */
+        @media (min-width: 860px) {}
+
+        /* Larger than tablet */
+        @media (min-width: 960px) {}
+
+        /* Larger than desktop */
+        @media (min-width: 1200px) {}
+
         #homepagemain h1 small {
           color:#444;
         }
@@ -120,10 +155,52 @@ body {
 
         }
 
-#start-project-overlay {
-  overflow: auto;
-  background-color: #d83f38;
+/* For devices no larger than 400px */
+@media (min-width: 0px) and (max-width:400px) {
+  #start-project-overlay {
+    overflow: auto;
+    background-color: #d83f38;
+    padding:0px 0 0 0;
+  }
 }
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  #start-project-overlay {
+    overflow: auto;
+    background-color: #d83f38;
+    padding:60px 0 0 0;
+  }
+}
+
+@media (min-width: 859px) {
+  #start-project-overlay {
+    overflow: auto;
+    background-color: #d83f38;
+    padding:60px 0 0 0;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 860px) {
+  #start-project-overlay {
+    overflow: auto;
+    background-color: #d83f38;
+    padding:60px 0 0 0;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 960px) {
+  #start-project-overlay {
+    overflow: auto;
+    background-color: #d83f38;
+    padding:0px 0 0 0;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1200px) {}
 
     #start-project-overlay h1, 
     #start-project-overlay h2, 
@@ -219,12 +296,61 @@ body {
       margin: 0 auto 24px auto;
     }
 
-    .ex-box {
-      background-color: white;
-      padding: 20px;
-      margin-right: 20px;
-      color:#222;
-      box-shadow: 0px 2px 2px rgba(0,0,0,0.12);
+    /* For devices no larger than 400px */
+    @media (min-width: 0px) and (max-width:400px) {}
+
+    /* Larger than mobile */
+    @media (min-width: 400px) {
+      .ex-box {
+        background-color: white;
+        padding: 20px;
+        margin-right: 00px;
+        color:#222;
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.12);
+      }
+    }
+
+    @media (min-width: 859px) {
+      .ex-box {
+        background-color: white;
+        padding: 20px;
+        margin-right: 00px;
+        color:#222;
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.12);
+      }
+    }
+
+    /* Larger than phablet (also point when grid becomes active) */
+    @media (min-width: 860px) {
+      .ex-box {
+        background-color: white;
+        padding: 20px;
+        margin-right: 00px;
+        color:#222;
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.12);
+      }
+    }
+
+    /* Larger than tablet */
+    @media (min-width: 960px) {
+      .ex-box {
+        background-color: white;
+        padding: 20px;
+        margin-right: 20px;
+        color:#222;
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.12);
+      }
+    }
+
+    /* Larger than desktop */
+    @media (min-width: 1200px) {
+      .ex-box {
+        background-color: white;
+        padding: 20px;
+        margin-right: 20px;
+        color:#222;
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.12);
+      }
     }
 
     .service-image {
@@ -543,10 +669,10 @@ nav {
 
     .startproject-button {
       position: relative;
-      width:50%;
+      width:80%;
       font: 500 32px/38px PT Sans,Helvetica,Arial,sans-serif;
       font-weight: 700;
-      margin:0px 25% 60px 25%; 
+      margin:0px 10% 60px 10%; 
 
     }
 
