@@ -53,9 +53,20 @@
 
 </div>
 
-<a href="/portfolio/" class="mainbutton">View all Projects <i class="fa fa-arrow-right"></i></a>
-
+<a name="boomp"></a>
 <div id="team" class="row extras padding100">
+  <div class="one-third column">
+    <a href="/team/" class="mainbutton ex-box">Meet the Team <i class="fa fa-smile-o"></i></a>
+  </div>
+  <div class="one-third column">
+    <a href="#boomp" class="mainbutton startproject-boop ex-box">Start a Project <i class="fa fa-edit"></i></a>
+  </div>
+  <div class="one-third column">
+    <a href="/portfolio/" class="mainbutton ex-box">View all Projects <i class="fa fa-arrow-right"></i></a>
+  </div>
+</div>
+
+<!-- <div id="team" class="row extras padding100">
   <section class="one-third column">
     <div class="ex-box">  
       <img src="http://placehold.it/350x200" class="bio-image">
@@ -95,6 +106,6 @@
       </p>
     </div>
   </section>
-</div>
+</div> -->
 
 <?php get_footer(); ?>
