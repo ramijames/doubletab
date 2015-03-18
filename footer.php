@@ -5,7 +5,7 @@
     <hr>
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
-      <form action="//weeklypixels.us5.list-manage.com/subscribe/post?u=0cd4c231af47d2b7d40a5eac6&amp;id=fbfa2e5c42" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="//weeklypixels.us5.list-manage.com/subscribe/post?u=0cd4c231af47d2b7d40a5eac6&amp;id=41e8ef3aa3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
           <div class="mc-field-group six columns">
             <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
@@ -14,14 +14,12 @@
             <div class="response" id="mce-error-response" style="display:none"></div>
             <div class="response" id="mce-success-response" style="display:none"></div>
           </div>
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_0cd4c231af47d2b7d40a5eac6_fbfa2e5c42" tabindex="-1" value=""></div>
-          <div class="two columns">
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-button">
-          </div>
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_0cd4c231af47d2b7d40a5eac6_41e8ef3aa3" tabindex="-1" value=""></div>
+          <div class="two columns"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-button"></div>
         </div>
-      </form>
+    </form>
     </div>
-  <!--End mc_embed_signup-->
+    <!--End mc_embed_signup-->
   </section>
 </div>
 
@@ -46,20 +44,23 @@
 
 <div id="start-project-overlay" class="overlay contact">
   <div class="close"><i class="fa fa-close"></i></div>
-  <section class="four columns padding60">
-    <h2>Let's do something great together</h2>
-    <h3>Let's create a groundbreaking product together.</h3>
+  <section class="four columns padding100">
+    <h3>Doubletab is always excited to create groundbreaking new technologies with you, our valued clients.</h3>
     <hr>
-    <ul>
+    <ul class="four columns">
+      <li><h5>Design and Development</h5></li>
       <li>Tel Aviv, Israel</li>
-      <li><a href="mailto:rami@doubletab.com">rami@doubletab.com</a></li>
+      <li><a href="mailto:dev@doubletab.com">dev@doubletab.com</a></li>
+      <li>972 58 4192939</li>
     </ul>
-    <ul>
+    <ul class="four columns">
+      <li><h5>Business Development</h5></li>
       <li>Los Angeles, USA</li>
-      <li><a href="mailto:zlatko@doubletab.com">zlatko@doubletab.com</a></li>
+      <li><a href="mailto:biz@doubletab.com">biz@doubletab.com</a></li>
+      <li>1 949 870 9885</li>
     </ul>
   </section>
-  <section class="four columns padding60">
+  <section class="four columns padding100">
     <?php 
       if ( function_exists( 'ccf_output_form' ) ) {
         ccf_output_form( 51 );

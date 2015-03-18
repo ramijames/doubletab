@@ -119,6 +119,40 @@ body {
 
         }
 
+#start-project-overlay {
+  overflow: auto;
+  background-color: #d83f38;
+}
+
+    #start-project-overlay h1, 
+    #start-project-overlay h2, 
+    #start-project-overlay h3, 
+    #start-project-overlay h4, 
+    #start-project-overlay h5,
+    #start-project-overlay p,
+    #start-project-overlay li,
+    #start-project-overlay label,
+    #start-project-overlay a {
+      color:white;
+    }
+
+    #start-project-overlay a {
+      border-bottom:1px solid rgba(255,255,255,0.6);
+    }
+
+    #start-project-overlay li {
+      list-style: none;
+    }
+
+    .ccf-form-wrapper .form-title {
+      font-size: 100%;
+      padding: 0;
+    }
+
+    .ccf-form-wrapper .field {
+      margin-bottom: 0px;
+      clear: both;
+    }
 
 #services {
   background: #eee;
