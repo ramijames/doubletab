@@ -59,7 +59,8 @@
   <section class="one-third column">
     <div class="ex-box">  
       <img src="http://placehold.it/350x200" class="bio-image">
-      <h3>Rami James</h3>
+      <h5 class="design">Rami James</h5>
+      <p><strong>Design</strong></p>
       <p>Rami is passionate about creating value through visual communication. Time after time he has experienced how strong brands are built through research, user insight and powerful visual concepts. After several years in startups and design studios, he knows how to combine effective tactical measures with long-term brand management.</p>
       <hr>
       <p>
@@ -71,7 +72,8 @@
   <section class="one-third column">
     <div class="ex-box"> 
       <img src="http://placehold.it/350x200" class="bio-image">
-      <h3>Shai James</h3>
+      <h5 class="development">Shai James</h5>
+      <p><strong>Development</strong></p>
       <p>Bio</p>
       <hr>
       <p>
@@ -83,7 +85,8 @@
   <section class="one-third column">
     <div class="ex-box"> 
       <img src="<?php bloginfo( 'template_directory' ); ?>/images/zlatkobijelic.png" class="bio-image">
-      <h3>Zlatko Bijelic</h3>
+      <h5 class="consultation">Zlatko Bijelic</h5>
+      <p><strong>Business Development</strong></p>
       <p>Bio</p>
       <hr>
       <p>
