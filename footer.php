@@ -113,7 +113,7 @@
       <li>1 949 870 9885</li>
     </ul>
   </section>
-  <section class="five columns padding100">
+  <section class="five columns padding60">
     <?php 
       if ( function_exists( 'ccf_output_form' ) ) {
         ccf_output_form( 51 );
