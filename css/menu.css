@@ -284,6 +284,7 @@ main p {
   -moz-transition-timing-function: cubic-bezier(0.12, 0.01, 0.37, 0.38);
   transition-timing-function: cubic-bezier(0.12, 0.01, 0.37, 0.38);
   height: 100%;
+  overflow: auto;
 }
 .cd-nav h2 {
   position: relative;
