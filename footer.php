@@ -42,9 +42,9 @@
   </footer>
 </div>
 
-<div id="start-project-overlay" class="overlay contact padding100">
+<div id="start-project-overlay" class="overlay contact">
   <div class="close"><i class="fa fa-close"></i></div>
-  <section class="three columns">
+  <section class="three columns padding100">
     <h3>Doubletab is always excited to create groundbreaking new technologies with you, our valued clients.</h3>
     <hr>
     <ul class="four columns">
@@ -60,7 +60,7 @@
       <li>1 949 870 9885</li>
     </ul>
   </section>
-  <section class="five columns">
+  <section class="five columns padding100">
     <?php 
       if ( function_exists( 'ccf_output_form' ) ) {
         ccf_output_form( 51 );
