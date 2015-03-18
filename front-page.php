@@ -63,8 +63,8 @@
       <p>Rami is passionate about creating value through visual communication. Time after time he has experienced how strong brands are built through research, user insight and powerful visual concepts. After several years in startups and design studios, he knows how to combine effective tactical measures with long-term brand management.</p>
       <hr>
       <p>
-      <a href="mailto:rami@doubletab.com" class="button"><i class="fa fa-at fa-2x"></i></a>
-      <a href="http://www.github.com/ramijames" class="button"><i class="fa fa-github fa-2x"></i></a>
+      <a href="mailto:rami@doubletab.com" class="button"><i class="fa fa-at"></i> Email</a>
+      <a href="http://www.github.com/ramijames" class="button"><i class="fa fa-github"></i> Github</a>
       </p>
     </div>
   </section>
@@ -75,8 +75,8 @@
       <p>Bio</p>
       <hr>
       <p>
-      <a href="mailto:shai@doubletab.com" class="button"><i class="fa fa-at fa-2x"></i></a>
-      <a href="http://www.github.com/shaijames" class="button"><i class="fa fa-github fa-2x"></i></a>
+      <a href="mailto:shai@doubletab.com" class="button"><i class="fa fa-at"></i> Email</a>
+      <a href="http://www.github.com/shaijames" class="button"><i class="fa fa-github"></i> Github</a>
       </p>
     </div>
   </section>
@@ -87,8 +87,8 @@
       <p>Bio</p>
       <hr>
       <p>
-      <a href="mailto:zlatko@doubletab.com" class="button"><i class="fa fa-at fa-2x"></i></a>
-      <a href="https://twitter.com/zbijeli" class="button"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="mailto:zlatko@doubletab.com" class="button"><i class="fa fa-at"></i> Email</a>
+      <a href="https://twitter.com/zbijeli" class="button"><i class="fa fa-twitter"></i> Twitter</a>
       </p>
     </div>
   </section>
