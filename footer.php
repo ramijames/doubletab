@@ -106,6 +106,7 @@
       <li><a href="mailto:dev@doubletab.com">dev@doubletab.com</a></li>
       <li>972 58 4192939</li>
     </ul>
+    <hr>
     <ul>
       <li><h5>Business</h5></li>
       <li>Los Angeles, USA</li>
