@@ -131,7 +131,6 @@ body {
     #start-project-overlay h5,
     #start-project-overlay p,
     #start-project-overlay li,
-    #start-project-overlay label,
     #start-project-overlay a {
       color:white;
     }
@@ -145,12 +144,10 @@ body {
     }
 
     .ccf-form-wrapper .form-title {
-      font-size: 100%;
-      padding: 0;
-      color:white;
+      display: none;
     }
 
-    #ccf_field_file-1, .field-description {
+    #start-project-overlay label, #ccf_field_file-1, .field-description {
       color:rgba(255,255,255,0.6);
     }
 
@@ -167,6 +164,10 @@ body {
     .ccf-form-wrapper .field {
       margin-bottom: 0px;
       clear: both;
+    }
+
+    .ccf-submit-button {
+      background-color: #222;
     }
 
 #services {
