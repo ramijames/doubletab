@@ -132,7 +132,7 @@ body {
     #start-project-overlay p,
     #start-project-overlay li,
     #start-project-overlay a {
-      color:white;
+      color:#222;
     }
 
     #start-project-overlay a {
@@ -172,11 +172,11 @@ body {
 
     .ccf-form {
       font: 500 22px/26px PT Sans,Helvetica,Arial,sans-serif;
-      font-weight: 700;
+      font-weight: 500;
       color: #222;
       background: white;
       padding: 60px;
-      text-align: center;
+      text-align: left;
     }
 
 #services {
