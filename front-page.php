@@ -55,4 +55,43 @@
 
 <a href="/portfolio/" class="mainbutton">View all Projects <i class="fa fa-arrow-right"></i></a>
 
+<div id="team" class="row extras padding100">
+  <section class="one-third column">
+    <div class="ex-box">  
+      <img src="http://placehold.it/350x200" class="bio-image">
+      <h3>Rami James</h3>
+      <p>Rami is passionate about creating value through visual communication. Time after time he has experienced how strong brands are built through research, user insight and powerful visual concepts. After several years in startups and design studios, he knows how to combine effective tactical measures with long-term brand management.</p>
+      <hr>
+      <p>
+      <a href="mailto:rami@doubletab.com"><i class="fa fa-at"></i> rami@doubletab.com</a>
+      <a href="http://www.github.com/ramijames"><i class="fa fa-github"></i> Github Repo</a>
+      </p>
+    </div>
+  </section>
+  <section class="one-third column">
+    <div class="ex-box"> 
+      <img src="http://placehold.it/350x200" class="bio-image">
+      <h3>Shai James</h3>
+      <p>Bio</p>
+      <hr>
+      <p>
+      <a href="mailto:shai@doubletab.com"><i class="fa fa-at"></i> shai@doubletab.com</a>
+      <a href="http://www.github.com/shaijames"><i class="fa fa-github"></i> Github Repo</a>
+      </p>
+    </div>
+  </section>
+  <section class="one-third column">
+    <div class="ex-box"> 
+      <img src="<?php bloginfo( 'template_directory' ); ?>/images/zlatkobijelic.png" class="bio-image">
+      <h3>Zlatko Bijelic</h3>
+      <p>Bio</p>
+      <hr>
+      <p>
+      <a href="mailto:zlatko@doubletab.com"><i class="fa fa-at"></i> zlatko@doubletab.com</a>
+      <a href="https://twitter.com/zbijeli"><i class="fa fa-twitter"></i> Twitter</a>c
+      </p>
+    </div>
+  </section>
+</div>
+
 <?php get_footer(); ?>
