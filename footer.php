@@ -1,3 +1,56 @@
+
+
+<div id="services" class="row padding100">
+  <section class="">
+    <h2 class="white">Doubletab is a <span class="development">development</span>, <span class="design">product design</span>, and <span class="consultation">consultation</span> studio that excels in helping businesses better connect with their audience.</h2>
+  </section>
+  <section class="one-third column">
+    <div class="row">
+      <h4 class="white bg-development">Development</h4>
+    </div>
+    <div class="row">
+      <div class="ex-box">
+        <ul>
+          <li><i class="fa fa-check-circle-o"></i> Laravel</li>
+          <li><i class="fa fa-check-circle-o"></i> Web Applications</li>
+          <li><i class="fa fa-check-circle-o"></i> Wordpress</li>
+          <li><i class="fa fa-check-circle-o"></i> Payment Integration</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="one-third column">
+    <div class="row">
+      <h4 class="white bg-design">Design</h4>
+    </div>
+    <div class="row">
+      <div class="ex-box">
+        <ul>
+          <li><i class="fa fa-check-circle-o"></i> Responsive Design</li>
+          <li><i class="fa fa-check-circle-o"></i> User Experience</li>
+          <li><i class="fa fa-check-circle-o"></i> Interface Design</li>
+          <li><i class="fa fa-check-circle-o"></i> Brand Identity</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="one-third column">
+    <div class="row">
+      <h4 class="white bg-consultation">Analysis</h4>
+    </div>
+    <div class="row">
+      <div class="ex-box">
+        <ul>
+          <li><i class="fa fa-check-circle-o"></i> Server Administration</li>
+          <li><i class="fa fa-check-circle-o"></i> SEO/SEM</li>
+          <li><i class="fa fa-check-circle-o"></i> Email Campaigns</li>
+          <li><i class="fa fa-check-circle-o"></i> Social Integration</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
 <div class="row extras padding60">
   <section class="six columns offset-by-one newsletter">
     <h5>Insider Access to Doubletab</h5>
@@ -5,7 +58,7 @@
     <hr>
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
-    <form action="//weeklypixels.us5.list-manage.com/subscribe/post?u=0cd4c231af47d2b7d40a5eac6&amp;id=41e8ef3aa3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="//doubletab.us5.list-manage.com/subscribe/post?u=0cd4c231af47d2b7d40a5eac6&amp;id=41e8ef3aa3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
           <div class="mc-field-group six columns">
             <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">

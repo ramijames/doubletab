@@ -58,9 +58,4 @@ jQuery(document).ready(function($){
                 isLateralNavAnimating = false;
             });
     });
-
-    $('.notification-container-close').on('click', function(event){
-        $('.notification-container').fadeOut();
-        // Need to add call to db here
-    });
 });

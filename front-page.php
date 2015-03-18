@@ -53,57 +53,6 @@
 
 </div>
 
-<a href="/portfolio/" class="mainbutton">View all Work <i class="fa fa-arrow-right"></i></a>
-
-<div id="services" class="row padding100">
-  <section class="">
-    <h2 class="white">Doubletab is a <span class="development">development</span>, <span class="design">product design</span>, and <span class="consultation">consultation</span> studio that excels in helping businesses better connect with their audience.</h2>
-  </section>
-  <section class="one-third column">
-    <div class="row">
-      <h4 class="white bg-development">Development</h4>
-    </div>
-    <div class="row">
-      <div class="ex-box">
-        <ul>
-          <li><i class="fa fa-check-circle-o"></i> Laravel</li>
-          <li><i class="fa fa-check-circle-o"></i> Web Applications</li>
-          <li><i class="fa fa-check-circle-o"></i> Wordpress</li>
-          <li><i class="fa fa-check-circle-o"></i> Payment Integration</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section class="one-third column">
-    <div class="row">
-      <h4 class="white bg-design">Design</h4>
-    </div>
-    <div class="row">
-      <div class="ex-box">
-        <ul>
-          <li><i class="fa fa-check-circle-o"></i> Responsive Design</li>
-          <li><i class="fa fa-check-circle-o"></i> User Experience</li>
-          <li><i class="fa fa-check-circle-o"></i> Interface Design</li>
-          <li><i class="fa fa-check-circle-o"></i> Brand Identity</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section class="one-third column">
-    <div class="row">
-      <h4 class="white bg-consultation">Analysis</h4>
-    </div>
-    <div class="row">
-      <div class="ex-box">
-        <ul>
-          <li><i class="fa fa-check-circle-o"></i> Server Administration</li>
-          <li><i class="fa fa-check-circle-o"></i> SEO/SEM</li>
-          <li><i class="fa fa-check-circle-o"></i> Email Campaigns</li>
-          <li><i class="fa fa-check-circle-o"></i> Social Integration</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-</div>
+<a href="/portfolio/" class="mainbutton">View all Projects <i class="fa fa-arrow-right"></i></a>
 
 <?php get_footer(); ?>
