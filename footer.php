@@ -87,9 +87,9 @@
     <p>
       <span>&copy; 2015 <?php bloginfo('name'); ?></span>
       &middot;
-      <span><a href="mailto:rami@doubletab.com">Contact Dev</a></span>
+      <span><a href="mailto:dev@doubletab.com">Contact Dev</a></span>
       &middot;
-      <span><a href="mailto:zlatko@doubletab.com">Contact Biz</a></span>
+      <span><a href="mailto:biz@doubletab.com">Contact Biz</a></span>
     </p>
     
   </footer>
