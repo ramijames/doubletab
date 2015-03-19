@@ -98,6 +98,7 @@
 <div id="start-project-overlay" class="overlay contact">
   <div class="close"><i class="fa fa-close"></i></div>
   <section class="three columns padding60">
+    <br>
     <h1>Let's Talk</h1>
     <hr>
     <ul>
