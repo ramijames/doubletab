@@ -14,23 +14,25 @@ Single Post Template: Single Blog
         </header>
       </div>
 
-			<div class="row">
+			<div class="row entry-content">
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article class=" padding100">
-								<div id="inner-content" class="three columns">
-									<h4><?php the_title(); ?></h4>
+							<article class="four columns offset-by-two padding100">
+								<div id="inner-content">
+									<h1><?php the_title(); ?></h1>
+									<h2>
 									<?php printf( __( 'Posted %1$s by %2$s', 'bonestheme' ),
 	                     /* the time the post was published */
 	                     '<time class="updated entry-time" datetime="' . get_the_time('Y-m-d') . '" itemprop="datePublished">' . get_the_time(get_option('date_format')) . '</time>',
 	                      /* the author of the post */
-	                      '<span class="by">by</span> <span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>'
+	                      '<span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>'
 	                  ); ?>
-	                  <hr>
+	                </h2>
+	                <hr>
 								</div>
-								<div id="inner-content" class="five columns">
-									<section class="padding60" itemprop="articleBody">
+								<div id="inner-content">
+									<section itemprop="articleBody">
 										<?php
 	                    // the content (pretty self explanatory huh)
 	                    the_content();

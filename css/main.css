@@ -408,13 +408,17 @@ body {
   background-color: rgba(0,0,0,0.06);
 }
 
-.inner-content {
+#inner-content {
 
 }
 
-    .inner-content h2 {
-
+    #inner-content h2 {
+      color: rgba(0,0,0,0.26);
+      font-size: 1.8rem;
+      line-height: 1.5;
     }
+
+
 
 .bio-image {
   width:100%;
@@ -552,6 +556,7 @@ body {
     .entry-content {
       background-color: #f6f6f6;
       color:#222;
+      overflow: auto;
     }
 
     .article-header * {
