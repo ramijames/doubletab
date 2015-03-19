@@ -30,7 +30,7 @@ Single Post Template: Single Blog
                 </h5>
                 <?php echo sharing_display(); ?>
 							</section>
-							<article class="four columns offset-by-two padding100">
+							<article class="six columns offset-by-one padding100">
 								<div id="inner-content">
 									<section itemprop="articleBody">
 										<?php
