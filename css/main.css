@@ -459,7 +459,7 @@ body {
 
         .blog-post-image h1,.blog-post-image h5 {
           color:white;
-          text-shadow: 0px 2px 7px rgba(0,0,0,0.6);
+          text-shadow: 0px 2px 7px rgba(0,0,0,0.85);
           margin: 10px;
         }
 

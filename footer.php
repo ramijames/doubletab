@@ -98,7 +98,7 @@
 <div id="start-project-overlay" class="overlay contact">
   <div class="close"><i class="fa fa-close"></i></div>
   <section class="three columns padding60">
-    <h4>Doubletab is always excited to create groundbreaking new technologies with you, our valued clients.</h4>
+    <h1>Let's Talk</h1>
     <hr>
     <ul>
       <li><h5>Development</h5></li>
