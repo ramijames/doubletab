@@ -472,6 +472,12 @@ body {
           border-radius: 4px;
         }  
 
+        .entry-content article section img {
+          width: 95%;
+          height: auto;
+          border: 2px solid rgba(0,0,0,0.12);
+        }
+
     .inner-post-image {
       opacity: 1;
       height: 480px;
