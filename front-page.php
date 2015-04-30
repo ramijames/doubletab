@@ -62,7 +62,7 @@
     <a href="#boomp" class="mainbutton startproject-boop ex-box">Start a Project <i class="fa fa-edit"></i></a>
   </div>
   <div class="one-third column">
-    <a href="/portfolio/" class="mainbutton ex-box">View all Projects <i class="fa fa-arrow-right"></i></a>
+    <a href="/category/portfolio/" class="mainbutton ex-box">View all Projects <i class="fa fa-arrow-right"></i></a>
   </div>
 </div>
 
